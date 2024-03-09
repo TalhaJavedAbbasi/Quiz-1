@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Quiz#1</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <h3>Q1:What is the difference between block and inline level elements</h3>
+    <table cellspacing="20px">
+        <thead>
+            <tr>
+                <th>block Level </th>
+                <th>inline Level </th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <ul>
+                    <td><li>A block-level element always starts on a new line</li></td>
+                    <td><li>An inline element does not start on a new line.</li></td>
+                </ul>
+            </tr>
+            <tr>
+                <ul>
+                    <td><li>A block-level element always takes up the full width available </li></td>
+                    <td><li>An inline element only takes up as much width as necessary.</li></td>
+                </ul>
+            </tr>
+            <tr>
+                <ul>
+                    <td><li><strong>Example:</strong> paragraph(p) tag,div tag,h1 to h6 tag etc. </li></td>
+                    <td><li><strong>Example:</strong>anchor tag,strong tag,bold tag etc.</li></td>
+                </ul>
+            </tr>
+            <tr>
+                <ul>
+                    <td><p class="hello">Hello from p tag (block element)</p></td>
+                    <td><span class="inline-example">Hello from span tag (inline element)</span></td>
+                </ul>
+            </tr>
+        </tbody>
+    </table>
+    <hr>
+    <h3>Q2:What is the difference between float and display properties</h3>
+    <table cellspacing="20px">
+        <thead>
+            <tr>
+                <th>float </th>
+                <th>display </th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <ul>
+                    <td><li>The float property is used for positioning and formatting content </li></td>
+                    <td><li>The display property is used to specify how an element is shown on a web page.</li></td>
+                </ul>
+            </tr>
+            
+            <tr>
+                <ul>
+                    <td><li>The float property can be used to wrap text around images. </li></td>
+                    <td><li>The display property is used to change the default display behavior of HTML elements.</li></td>
+                </ul>
+            </tr>
+
+            <tr>
+                <ul>
+                    <td><li>float property values are left,right,none and inherit. </li></td>
+                    <td><li>display property values are block,inline,inline-block,none etc.</li></td>
+                </ul>
+            </tr>
+
+            <tr>
+                <ul>
+                    <td><li><strong>Example:</strong> Let an image float left to the text in a container. </li></td>
+                    <td><li><strong>Example:</strong>Changing the default display value of block element i.e p tag into inline element.</li></td>
+                </ul>
+            </tr>
+
+            <tr>
+                <ul>
+                    <td><img src="images\html-5.png" alt="html-logo">This text is wrap around html logo using float property value left.</td>
+                    <td><li>Below hello and world is written using two p tags(which is block level) by using the display value inline we convert p tag text world from block to inline <p class="hello">Hello</p><p class="world">World</p></li></td>
+                </ul>
+            </tr>
+
+        </tbody>
+    </table>
+    <hr>
+    <h3>Q1:What is the use of clear property in css</h3>
+    <p class="clear-propert-heading"><strong>Usage of clear property</strong></p>
+    <ul class="clear-list">
+        <li>The clear property controls the flow next to floated elements.</li>
+        <li>The clear property specifies what should happen with the element that is next to a floating element.</li>
+        <li>When you float an element, it can cause other elements to wrap around it, which may not always be the desired behavior. The clear property allows you to specify whether an element should be allowed to float alongside previously floated elements or if it should be forced below them.</li>
+        <li><strong>clear property values:</strong></li>
+        <ol>
+            <li>none</li>
+            <li>left</li>
+            <li>right</li>
+            <li>both</li>
+        </ol>
+        <li><strong>Example:</strong></li>
+            <p><img src="images\html-5.png" alt="html-logo">This text is wrap around html logo using float property value left.</p>
+            <p class="anti-float-para">On this text the clear propert value left is used which work as an anti-float.</p>     
+    </ul>
+    <hr>
+</body>
+</html>

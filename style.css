@@ -1,0 +1,31 @@
+table {
+    font-size: 18px;
+}
+
+img {
+    float: left;
+}
+.world {
+    display:inline;
+    background-color: red;
+}
+
+.hello {
+    
+    background-color: red;
+}
+.inline-example {
+    background-color: red;
+}
+.clear-propert-heading {
+    margin-left: 1%;
+    font-size: 18px;
+}
+
+.clear-list {
+    font-size: 18px;
+}
+
+.anti-float-para {
+    clear: left;
+}
